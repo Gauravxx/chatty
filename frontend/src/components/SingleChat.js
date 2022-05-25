@@ -18,7 +18,7 @@ import { ChatState } from "../Context/ChatProvider";
 import { BsEmojiSmileFill } from "react-icons/bs";
 import Picker from "emoji-picker-react";
 import styled from "styled-components";
-const ENDPOINT = "https://chiitty-chatyy.herokuapp.com/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://chattyx-mern.herokuapp.com/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
